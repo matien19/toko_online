@@ -17,13 +17,13 @@
 
     <!-- Custom styles for this template -->
     <style>
-      body {
-            padding-top: 5rem;
-          }
-      .starter-template {
-            padding: 3rem 1.5rem;
-            text-align: center;
-          }
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
     </style>
   </head>
 
@@ -40,5 +40,12 @@
 
     <script src="<?= base_url('bootstrap/dist/js/bootstrap.min.js')?>"></script>
     <script src="<?= base_url('jquery-3.7.1.min.js')?>"></script>
+    <script>
+        $('.dropdown').click(function(){
+
+$('.dropdown-menu').toggleClass('show');
+
+});
+    </script>
   </body>
 </html>
