@@ -28,5 +28,5 @@
 </tbody>
 </table>
 
-<?= $this->endSection('content'); ?>
+<?= $this->endSection(); ?>
 

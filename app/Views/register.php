@@ -20,7 +20,6 @@ $repeatPassword = [
 
 $session = session();
 $errors = $session->getFlashdata('errors');
-
 ?>
 <h1>Register Form</h1>
 <?php if($errors != null): ?>
@@ -53,4 +52,4 @@ $errors = $session->getFlashdata('errors');
     <?= form_submit("submit", "Submit", ['class'=>'btn btn-primary']) ?>
 </div>
 <?= form_close() ?>
-<?= $this->endSection('layout'); ?>
+<?= $this->endSection('content'); ?>

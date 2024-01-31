@@ -78,4 +78,4 @@ $errors = $session->getFlashdata('errors');
     <?= form_submit($submit) ?>
 </div>
 
-<?= $this->endSection('layout'); ?>
+<?= $this->endSection(); ?>
