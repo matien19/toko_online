@@ -26,7 +26,6 @@ body {
 }
     </style>
   </head>
-
   <body>
 
   <?= $this->include('navbar') ?>
@@ -37,9 +36,8 @@ body {
      
 
     </main><!-- /.container -->
-
-    <script src="<?= base_url('bootstrap/dist/js/bootstrap.min.js')?>"></script>
     <script src="<?= base_url('jquery-3.7.1.min.js')?>"></script>
+    <script src="<?= base_url('bootstrap/dist/js/bootstrap.min.js')?>"></script>
     <script>
         $('.dropdown').click(function(){
 
@@ -47,5 +45,8 @@ $('.dropdown-menu').toggleClass('show');
 
 });
     </script>
+
+  <?= $this->renderSection('script') ?>
+
   </body>
 </html>

@@ -28,4 +28,4 @@ $password = [
 </div>
 <?= form_close() ?>
 
-<?= $this->endSection('layout'); ?>
+<?= $this->endSection('content'); ?>

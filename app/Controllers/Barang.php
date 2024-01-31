@@ -64,7 +64,7 @@ class Barang extends BaseController
 
         if ($this->request->getPost()) 
         {
-            $data = $this->request->getPost();            $data = $this->request->getPost();
+            $data = $this->request->getPost();            
             $this->validation->run($data, 'barangupdate');
             $errors = $this->validation->getErrors();
             if ((!$errors))
